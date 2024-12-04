@@ -1,0 +1,32 @@
+{
+  "name": "wrapped-2024",
+  "version": "1.0.0",
+  "description": "My Remotion video",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.234",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.234",
+    "@remotion/tailwind": "4.0.234"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config": "4.0.234",
+    "@types/react": "18.3.1",
+    "@types/web": "0.0.166",
+    "eslint": "8.56.0",
+    "prettier": "3.3.3",
+    "typescript": "5.5.4"
+  },
+  "scripts": {
+    "dev": "remotionb studio",
+    "build": "remotionb bundle",
+    "upgrade": "remotionb upgrade",
+    "lint": "eslint src --ext ts,tsx,js,jsx && tsc"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}
