@@ -7,10 +7,13 @@
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.234",
+    "@remotion/google-fonts": "4.0.234",
+    "@remotion/paths": "4.0.234",
+    "@remotion/shapes": "4.0.234",
+    "@remotion/tailwind": "4.0.234",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "remotion": "4.0.234",
-    "@remotion/tailwind": "4.0.234"
+    "remotion": "4.0.234"
   },
   "devDependencies": {
     "@remotion/eslint-config": "4.0.234",
